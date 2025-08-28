@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 
-const categories = ['Geography', 'Literature', 'Science','History','Sports' ]; // Add more categories as needed
+const categories = ['Geography', 'Literature', 'Science','History','Sports' ]; 
 
 const CategorySelector = ({ selectedCategory, onSelectCategory }) => {
     return (
